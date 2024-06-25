@@ -12,7 +12,7 @@ document.getElementById("generateBtn").addEventListener("click", async () => {
     loadingSpinner.style.display = "block";
 
     try {
-        const response = await fetch("https://dall-t.azurewebsites.net/api/httpTrigger0", {  // Replace with your Azure Function URL
+        const response = await fetch("https://dall-t.azurewebsites.net/api/httpTriggerts", {  // Replace with your Azure Function URL
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
